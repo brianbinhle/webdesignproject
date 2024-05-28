@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+        <!-- Bootstrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-nav">
+            <div class="container-fluid">
+                
+                <!--Don't collapse the brandname -->
+                <a class="navbar-brand" href="home.html">🏞🏝 Trip of a Lifetime</a>
+                
+                <!-- Toggle button (three vertical lines -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                   
+                <!-- Define what should collapse when you push the toggle button -->
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <!-- Links -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="japan.html">Japan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mountfuji.html">Mount Fuji</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="people.html">People of Fuji</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="transportation.html">Transportation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hotel.html">Hotel</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">7-Day-Itinerary</a>
+                            <ul class="dropdown-menu">
+                                        
+                                <!-- Fill in the dropdown items -->
+                                <!-- Make sure all the items have the correct classes
+                                     and href is the cat's id 
+                                -->
+                                <li><a class="dropdown-item" href="itinerary.html">Overview</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="day1.html">Day 1</a></li>
+                                <li><a class="dropdown-item" href="day2.html">Day 2</a></li>
+                                <li><a class="dropdown-item" href="day3.html">Day 3</a></li>
+                                <li><a class="dropdown-item" href="day4.html">Day 4</a></li>
+                                <li><a class="dropdown-item" href="day5.html">Day 5</a></li>
+                                <li><a class="dropdown-item" href="day6.html">Day 6</a></li>
+                                <li><a class="dropdown-item" href="day7.html">Day 7</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content-1 p-5" id="main">
+            <div class="row">
+                <div class="col-sm-3 text-center">
+                    
+                </div>
+                <div class="col-sm-6 text-center">
+                    <h1>Trip of a Lifetime</h1>
+                    <h4>May 23, 2024 - May 30, 2024</h4><br>
+                    <h5>This website is about a trip of a lifetime I would like to go on. There's many possible destinations, but the one that stood out to me was Mount Fuji, Japan. The iconic peak, with its breathtaking beauty and cultural significance, is the highlight of my dream adventure. This trip will combine the thrill of outdoor exploration with the serenity of Japanese culture.</h5>
+                    <br><figure>
+                        <img style="width:60%" align="center" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0f/55/40/c6.jpg" alt="Mount Fuji View">
+                        <figcaption>Image Source: <a href="https://www.getyourguide.com/tokyo-l193/alpha-japan-with-mtfuji-t635882/" target="_blank">GetYourGuide</a></figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-3 text-center">
+                    
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-3 text-center">
+                    
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="text-center">What to Expect on This Blog</h1><br>
+                    <ul>
+                        <li><b>Country Overview:</b> I'll start by exploring what makes Japan such a unique and fascinating destination, setting the stage for our focus on Mount Fuji. We'll look at Japan's rich history, vibrant culture, and the many wonders that make it an ideal travel destination.</li>
+                        <li><b>Region & City Guide:</b> Join me as we delve into the areas surrounding Mount Fuji. We'll discover the volcano and the Fuji Five Lakes, and we'll admire this majestic mountain.</li>
+                        <li><b>Meet the People:</b> Understanding local customs and traditions is key to a meaningful travel experience. I'll share insights into Japanese etiquette, cultural practices, and stories from locals, giving us a deeper connection to the places we visit.</li>
+                        <li><b>Getting Around:</b> Traveling in Japan, especially to a site as renowned as Mount Fuji, requires some planning. I'll provide how I plan to travel to and commute within Japan.</li>
+                        <li><b>Where to Stay:</b> Finding the perfect place to stay near Mount Fuji can greatly enhance the experience. I'll review my favorite hotel and analyze features from possible cozy guesthouses with mountain views to traditional ryokans that offer a taste of Japanese hospitality.</li>
+                        <li><b>Seven-Day Itinerary:</b> To make the most of my trip, I've put together a detailed seven-day itinerary focusing on Mount Fuji and its surroundings. This itinerary balances must-see attractions with opportunities to relax and soak in the beauty of the region.</li>
+                    </ul>
+                    <br><figure class="text-center">
+                        <img style="width:60%" src="https://media.cntraveler.com/photos/651d8e06cd9d1831901cab44/master/pass/japan-GettyImages-1354583954.jpeg">
+                        <figcaption>Image Source: <a href="https://www.cntraveler.com/story/reasons-to-visit-japan"  target="_blank">Conde Nast Traveler</a></figcaption>
+                    </figure>
+                    <div class="text-center m-5">
+                        <a href="japan.html" class="btn btn-primary">Next &raquo;</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 text-center">
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <footer class="text-center text-light bg-dark p-5">
+            <div class="row">
+                <div class="col-4 mt-5">
+                    <h1>🏞🏝 Trip of a Lifetime</h1>
+                    <p>This website is a web design project about a trip of a lifetime I would like to go on.</p>
+                </div>
+                <div class="col-4">
+                    <h4>Quick Links</h4>
+                    <a class="quick-link" href="home.html">Home</a><br>
+                    <a class="quick-link" href="japan.html">Japan</a><br>
+                    <a class="quick-link" href="mountfuji.html">Mount Fuji</a><br>
+                    <a class="quick-link" href="people.html">People of Fuji</a><br>
+                    <a class="quick-link" href="transportation.html">Transportation</a><br>
+                    <a class="quick-link" href="hotel.html">Hotel</a><br>
+                    <a class="quick-link" href="itinerary.html">7-Day-Itinerary</a><br>
+                </div>
+                <div class="col-4">
+                    <h4>Designed by Brian Le</h4>
+                    Copyright © 2024 All Rights Reserved
+                </div>
+            </div>
+        </footer>
+           
+    </body>
+</html>
